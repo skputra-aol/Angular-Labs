@@ -11,5 +11,5 @@ $ /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "P@ssw0rd"
 
 
 $ npm install -g @angular/cli
-$ ng new hello-world-angular
+$ npm install
 $ ng serve --open 
