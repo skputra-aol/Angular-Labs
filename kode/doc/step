@@ -22,3 +22,8 @@ $ ng serve --open
 
 /// Asp.net core 7
 $ dotnet new webapi
+$ /// nuget install : 
+1)Microsoft.EntityFrameworkCore
+2)Microsoft.EntityFrameworkCore.SqServer
+3)Microsoft.EntityFrameworkCore.Tools
+
