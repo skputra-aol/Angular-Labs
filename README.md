@@ -1,6 +1,10 @@
 # Angular-Labs
 
-# Setup
+# extension vscode
+ext install mtxr.sqltools
+ext install mtxr.sqltools-driver-mssql
+
+# Setup docker
 $ sudo docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" \
    -p 1433:1433 --name serversql1 --hostname serversql1 \
    -d \

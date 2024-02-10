@@ -7,6 +7,9 @@ $ sudo docker ps -a
 $ sudo docker exec -it serversql1 "bash"
 $ /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "P@ssw0rd"
 $ SELECT @@SERVERNAME
+$ create database dbputra
+$ use dbputra
+$ create table tb1(id int identity(1,1) primary key , nama nvarchar(50), note nvarchar(100))
 $ go
 $ exit
 

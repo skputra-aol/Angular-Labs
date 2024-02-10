@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "instanceName": "serversql1"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "docker-serversql1",
+            "group": "docker",
+            "database": "dbputra",
+            "username": "SA",
+            "password": "P@ssw0rd"
+        }
+    ]
+}
