@@ -13,6 +13,12 @@ $ create table tb1(id int identity(1,1) primary key , nama nvarchar(50), note nv
 $ go
 $ exit
 
+/// Angular 17
 $ npm install -g @angular/cli
 $ ng new hello-world-angular
 $ ng serve --open
+
+
+
+/// Asp.net core 7
+$ dotnet new webapi

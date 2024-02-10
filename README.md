@@ -3,6 +3,8 @@
 # extension vscode
 ext install mtxr.sqltools
 ext install mtxr.sqltools-driver-mssql
+ext install nuget gallery
+ext install c# dev kit
 
 # Setup docker
 $ sudo docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" \
